@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(250, 187, 241);
+}
+h1 {
+  font-family: tahoma;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(195, 162, 250);
+}
+
+h2 {
+  font-family: tahoma;
+}
+
+p {
+  font-family: tahoma;
+  font-size: 15px;
+}
