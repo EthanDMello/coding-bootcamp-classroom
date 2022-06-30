@@ -24,6 +24,7 @@ li {
 img {
   /* TODO: Add your code here */
   margin: 0 auto;
+  display: block;
 }
 
 #item-1 {
