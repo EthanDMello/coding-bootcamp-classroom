@@ -41,9 +41,9 @@ ul {
 }
 
 .resources #links {
-  display: none;
+  visibility: hidden;
 }
 
 .resources:hover #links {
-  display: block;
+  visibility: visible;
 }
