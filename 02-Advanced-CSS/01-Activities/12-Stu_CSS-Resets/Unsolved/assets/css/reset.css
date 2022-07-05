@@ -10,20 +10,32 @@ html {
 
 body {
   min-height: 100%;
-  line-height: 1;
+  line-height: 94%;
   font-family: sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 180%;
 }
 
-input, select, option, optgroup, textarea, button,
-pre, code {
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
   font-size: 100%;
   font-family: inherit;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }

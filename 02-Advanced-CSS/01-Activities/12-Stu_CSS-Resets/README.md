@@ -2,9 +2,9 @@
 
 Work with a partner to resolve the following issues:
 
-* As a user, I expect headings to be a larger font size.
+- As a user, I expect headings to be a larger font size.
 
-* As a user, I expect spacing in between the lines of text.
+- As a user, I expect spacing in between the lines of text.
 
 ## Expected Behavior
 
@@ -24,15 +24,16 @@ The following image demonstrates the web application's appearance:
 
 ## 💡 Hints
 
-* How can you fix the styling without writing any new CSS rules?
+- How can you fix the styling without writing any new CSS rules?
 
 ## 🏆 Bonus
 
 If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
 
-* What is Normalize.css and how does it affect different browsers?
+- What is Normalize.css and how does it affect different browsers?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
+
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
