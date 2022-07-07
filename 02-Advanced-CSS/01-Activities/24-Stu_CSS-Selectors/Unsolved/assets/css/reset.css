@@ -39,3 +39,7 @@ ol,
 ul {
   list-style: none;
 }
+
+a[href*="css" i]::after {
+  content: "📝";
+}
