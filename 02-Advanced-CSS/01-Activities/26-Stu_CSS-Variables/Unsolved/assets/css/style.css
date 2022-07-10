@@ -1,3 +1,10 @@
+:root {
+  --light: #fff;
+  --dark: #13293d;
+  --brownish: #d8a47f;
+  --pale: #aaaaaa;
+}
+
 body {
   font-size: 16px;
   display: flex;
@@ -19,13 +26,13 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--dark);
+  color: var(--light);
 }
 
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: var(--brownish);
 }
 
 nav a {
@@ -36,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: var(--light);
 }
 
 main {
@@ -49,14 +56,14 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--dark);
+  color: var(--light);
   margin-top: auto;
 }
 
 .products {
   flex: 1;
-  background-color: #fff;
+  background-color: var(--light);
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +77,7 @@ footer {
   padding: 10px;
   flex: 0 0 300px;
   transform: rotate(8deg);
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px var(--pale);
   margin: 20px;
 }
 
