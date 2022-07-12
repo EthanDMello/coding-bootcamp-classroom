@@ -19,9 +19,9 @@ isEqual(10, 10);
 isEqual(5, "5");
 
 // TODO: Rewrite isEqual as a function expression called 'isEqualTakeTwo`
-function isEqualTakeTwo(x, y) {
+var isEqualTakeTwo = function (x, y) {
   isEqual(x, y);
-}
+};
 
 // TODO: Call the isEqualTakeTwo function so that it logs "They are not equal"
 isEqualTakeTwo(2, 4);
