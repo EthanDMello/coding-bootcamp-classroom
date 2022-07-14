@@ -11,6 +11,7 @@ var galaxy = [constellations + planets];
 
 var newStar = star.toUpperCase();
 
+console.log(constellations);
 console.log(planets);
 console.log(galaxy);
 console.log(newStar);
