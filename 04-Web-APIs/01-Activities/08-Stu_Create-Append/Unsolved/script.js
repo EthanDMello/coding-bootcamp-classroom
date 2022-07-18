@@ -42,4 +42,7 @@ li3.textContent = "Pasta";
 li4.textContent = "Mayo";
 
 listEl.append(li1, li2, li3, li4);
-body.appendChild(listEl);
+body.favoriteEl.appendChild(listEl);
+
+listEl.setAttribute("style", "background-color: #333333");
+// listEl.setAttribute("style", "padding: 5px");
