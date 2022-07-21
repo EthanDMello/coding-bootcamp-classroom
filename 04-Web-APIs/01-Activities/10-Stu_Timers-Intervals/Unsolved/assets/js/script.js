@@ -33,6 +33,8 @@ function displayMessage() {
     if (words[wordCount] === undefined) {
       // Use `clearInterval()` to stop the timer
       clearInterval(msgInterval);
+      mainEl.textContent = " ";
+      timerEl.textContent = " ";
     } else {
       // Display one word of the message
       mainEl.textContent = words[wordCount];
