@@ -12,7 +12,6 @@ const max = () => {
       highNum = integers[i];
     }
   }
+  // print output
+  console.log("The highest number is " + highNum + ".");
 };
-
-// print output
-console.log("The highest number is " + highNum + ".");
